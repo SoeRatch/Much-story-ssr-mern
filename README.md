@@ -358,3 +358,21 @@ Reminder - flow to improve
         bg_image:"https://res.cloudinary.com/surajsharma/image/upload/v1568712315/muchstoryimages/yellowbggraphic.jpg",
         text:["customize homepage,logo and","categories at $499 only"]
     }
+
+======================================
+
+1) get heroku cli in ubuntu 16.04(your local machine)
+
+sudo wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+
+2) check heroku is successfully installed or not
+
+heroku --version
+
+3) log in from cli 
+
+heroku login
+
+it will open browser to login 
+
+4)
