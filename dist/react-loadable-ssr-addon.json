@@ -1,0 +1,275 @@
+{
+  "entrypoints": [
+    "main"
+  ],
+  "origins": {
+    "1": [
+      0,
+      12,
+      1
+    ],
+    "2": [
+      0,
+      8,
+      2
+    ],
+    "vendors": [
+      1,
+      2,
+      3,
+      4,
+      7,
+      8,
+      9,
+      12,
+      13,
+      15,
+      19,
+      0
+    ],
+    "./container/blogPage": [
+      0,
+      3
+    ],
+    "./container/createStory": [
+      0,
+      4
+    ],
+    "./component/pages/DashboardPage": [
+      5
+    ],
+    "./container/categoryPage": [
+      6
+    ],
+    "./container/commentPage": [
+      0,
+      7
+    ],
+    "./component/nav": [
+      0,
+      2,
+      8
+    ],
+    "./component/pages/Register": [
+      0,
+      9
+    ],
+    "./component/page/not-found": [
+      10
+    ],
+    "./component/pages/AdminPage": [
+      11
+    ],
+    "./component/pages/ConfirmationPage": [
+      0,
+      1,
+      12
+    ],
+    "./container/homePage": [
+      0,
+      13
+    ],
+    "main": [
+      14
+    ],
+    "../../component/slateEditor": [
+      0,
+      15
+    ],
+    "./containers/allCategoryContainer": [
+      16
+    ],
+    "./containers/slidingCategoryContainer": [
+      17
+    ],
+    "./containers/slidingTypeContainer": [
+      18
+    ],
+    "./components/leadGeneration": [
+      0,
+      19
+    ]
+  },
+  "assets": {
+    "0": {
+      "js": [
+        {
+          "file": "vendors.chunk.js",
+          "hash": "9b5c82594583ede57a6a",
+          "publicPath": "/static/vendors.chunk.js"
+        }
+      ]
+    },
+    "1": {
+      "js": [
+        {
+          "file": "1.chunk.js",
+          "hash": "ed20133886e4ad123aeb",
+          "publicPath": "/static/1.chunk.js"
+        }
+      ]
+    },
+    "2": {
+      "js": [
+        {
+          "file": "2.chunk.js",
+          "hash": "53fa498fd1126ea0e78d",
+          "publicPath": "/static/2.chunk.js"
+        }
+      ]
+    },
+    "3": {
+      "js": [
+        {
+          "file": "3.chunk.js",
+          "hash": "f8a22e121f3749f0c359",
+          "publicPath": "/static/3.chunk.js"
+        }
+      ]
+    },
+    "4": {
+      "js": [
+        {
+          "file": "4.chunk.js",
+          "hash": "23fd6d5f9b1bac002bb7",
+          "publicPath": "/static/4.chunk.js"
+        }
+      ]
+    },
+    "5": {
+      "js": [
+        {
+          "file": "5.chunk.js",
+          "hash": "144a80197a8c3c9e25cf",
+          "publicPath": "/static/5.chunk.js"
+        }
+      ]
+    },
+    "6": {
+      "js": [
+        {
+          "file": "6.chunk.js",
+          "hash": "6e23322e08b5597fd68f",
+          "publicPath": "/static/6.chunk.js"
+        }
+      ]
+    },
+    "7": {
+      "js": [
+        {
+          "file": "7.chunk.js",
+          "hash": "9abe522cd55db657a122",
+          "publicPath": "/static/7.chunk.js"
+        }
+      ]
+    },
+    "8": {
+      "js": [
+        {
+          "file": "8.chunk.js",
+          "hash": "8c1bb8ee2b600fac7705",
+          "publicPath": "/static/8.chunk.js"
+        }
+      ]
+    },
+    "9": {
+      "js": [
+        {
+          "file": "9.chunk.js",
+          "hash": "084a6c03d46794f19062",
+          "publicPath": "/static/9.chunk.js"
+        }
+      ]
+    },
+    "10": {
+      "js": [
+        {
+          "file": "10.chunk.js",
+          "hash": "f7c0c1b8e3f970642fdb",
+          "publicPath": "/static/10.chunk.js"
+        }
+      ]
+    },
+    "11": {
+      "js": [
+        {
+          "file": "11.chunk.js",
+          "hash": "59def8d7bc6aaf826e77",
+          "publicPath": "/static/11.chunk.js"
+        }
+      ]
+    },
+    "12": {
+      "js": [
+        {
+          "file": "12.chunk.js",
+          "hash": "82f20b5a6fe1bd17b973",
+          "publicPath": "/static/12.chunk.js"
+        }
+      ]
+    },
+    "13": {
+      "js": [
+        {
+          "file": "13.chunk.js",
+          "hash": "e0c40fb2ceb8138feb5e",
+          "publicPath": "/static/13.chunk.js"
+        }
+      ]
+    },
+    "14": {
+      "js": [
+        {
+          "file": "main.js",
+          "hash": "34255d045c10d0852785",
+          "publicPath": "/static/main.js"
+        }
+      ]
+    },
+    "15": {
+      "js": [
+        {
+          "file": "15.chunk.js",
+          "hash": "784295d97ede33b541a8",
+          "publicPath": "/static/15.chunk.js"
+        }
+      ]
+    },
+    "16": {
+      "js": [
+        {
+          "file": "16.chunk.js",
+          "hash": "02d689bbda8b37e2f960",
+          "publicPath": "/static/16.chunk.js"
+        }
+      ]
+    },
+    "17": {
+      "js": [
+        {
+          "file": "17.chunk.js",
+          "hash": "1a45df8fecffd56f98af",
+          "publicPath": "/static/17.chunk.js"
+        }
+      ]
+    },
+    "18": {
+      "js": [
+        {
+          "file": "18.chunk.js",
+          "hash": "f23a7c0d793bf6a637a0",
+          "publicPath": "/static/18.chunk.js"
+        }
+      ]
+    },
+    "19": {
+      "js": [
+        {
+          "file": "19.chunk.js",
+          "hash": "c89dc32896fb2d84c11c",
+          "publicPath": "/static/19.chunk.js"
+        }
+      ]
+    }
+  }
+}

@@ -375,4 +375,4 @@ heroku login
 
 it will open browser to login 
 
-4)
+4)in your package.json under script section write heroku-postbuild script
