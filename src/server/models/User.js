@@ -1,4 +1,4 @@
-import { WEB_PORT } from '../../shared/config'
+require('dotenv').config()
 import mongoose from 'mongoose';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
@@ -65,7 +65,7 @@ schema.methods.setConfirmationToken = function setConfirmationToken(){
 };
 
 schema.methods.generateConfirmationUrl = function generateConfirmationUrl(){
-	return `${WEB_PORT}/confirmation/${this.confirmationToken}`
+	return `${process.env.WEB_DOMAIN}/confirmation/${this.confirmationToken}`
 };
 
 /*schema.methods.generateResetPasswordToken = function generateResetPasswordToken(){
