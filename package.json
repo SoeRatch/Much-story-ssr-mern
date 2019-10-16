@@ -9,7 +9,7 @@
     "dev:dbon": "mkdir -p ./db && mongod --dbpath ./db",
     "dev:start": "nodemon -e js,jsx --ignore lib --ignore dist --exec babel-node src/server",
     "dev:wds": "webpack-dev-server --progress --hot",
-    "prod:build": "rimraf lib dist && ./node_modules/.bin/babel src -d lib --ignore .test.js && cross-env NODE_ENV=production webpack -p --progress",
+    "prod:build": "rimraf lib dist && babel src -d lib --ignore .test.js && cross-env NODE_ENV=production webpack -p --progress",
     "prod:startwithpm": "cross-env NODE_ENV=production pm2 start lib/server && pm2 logs",
     "heroku-postbuild":"yarn install && yarn prod:build"
   },
