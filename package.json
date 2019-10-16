@@ -6,6 +6,7 @@
     "> 1%"
   ],
   "scripts": {
+    "start":"node lib/server",
     "dev:dbon": "mkdir -p ./db && mongod --dbpath ./db",
     "dev:start": "nodemon -e js,jsx --ignore lib --ignore dist --exec babel-node src/server",
     "dev:wds": "webpack-dev-server --progress --hot",
