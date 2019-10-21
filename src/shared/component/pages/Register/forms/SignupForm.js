@@ -30,10 +30,20 @@ class SignupForm extends React.Component{
 		
 		this.setState({errors});
 		if(Object.keys(errors).length === 0){
-			this.props.submit(this.state.data)/*
-				.catch(err => this.setState({
-				 	errors: err.response.data.errors
-				 }));*/
+			
+			if(this.state.data.email!="pensheelapp@gmail.com"){
+				errors.message="email service for verification is not available currently . your account will be activated within 24 hrs . In the mean time use email- admin@muchstory.com and password- admin123 to login";
+				this.setState({errors});
+				this.props.submit(this.state.data);
+			}
+			else{
+
+				this.props.submit(this.state.data).then(()=>{
+					this.props.history.push("/dashboard");
+				});
+			}
+
+			
 		}
 	};
 
@@ -85,7 +95,7 @@ class SignupForm extends React.Component{
 							value={data.username}
 							placeholder="Name"
 							onChange={this.onChange} />
-					{errors.username && <InlineError text={errors.username} />}
+					
 
 					<input style={{
 									backgroundColor:'#eee',
@@ -100,7 +110,7 @@ class SignupForm extends React.Component{
 							value={data.email}
 							placeholder="Email"
 							onChange={this.onChange} />
-					{errors.email && <InlineError text={errors.email} />}
+					
 						
 					<input style={{
 									backgroundColor:'#eee',
@@ -115,8 +125,10 @@ class SignupForm extends React.Component{
 								value={data.password}
 								placeholder="Password"
 								onChange={this.onChange}/>
+					{errors.username && <InlineError text={errors.username} />}
+					{errors.email && <InlineError text={errors.email} />}
 					{errors.password && <InlineError text={errors.password} />}
-
+					{errors.message && <InlineError text={errors.message} />}
 					<FormButtonInput
 						type="submit"
 						name=""

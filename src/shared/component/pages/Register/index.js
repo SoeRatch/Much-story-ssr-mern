@@ -32,9 +32,7 @@ class Register extends React.Component{
 		rightpanelactive:false
 	}
 
-	signupsubmit = data =>this.props.signup(data).then(()=>{
-			this.props.history.push("/dashboard");
-		});
+	signupsubmit = data =>this.props.signup(data);
 
 	loginsubmit = data => this.props.login(data).then(()=>{
 		this.props.history.push("/dashboard");
