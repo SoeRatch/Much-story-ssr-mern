@@ -3,100 +3,147 @@
     "main"
   ],
   "origins": {
+    "0": [
+      1,
+      9,
+      11,
+      16,
+      19,
+      "vendors",
+      0
+    ],
     "1": [
       0,
-      12,
+      2,
+      19,
+      20,
+      21,
       1
     ],
     "2": [
-      0,
-      8,
+      1,
+      20,
+      21,
       2
     ],
-    "vendors": [
-      1,
-      2,
-      3,
-      4,
-      7,
-      8,
-      9,
-      12,
-      13,
+    "3": [
       15,
-      19,
-      0
-    ],
-    "./container/blogPage": [
-      0,
+      "vendors",
       3
     ],
-    "./container/createStory": [
-      0,
+    "4": [
+      8,
+      "vendors",
       4
     ],
-    "./component/pages/DashboardPage": [
+    "5": [
+      7,
+      "vendors",
       5
     ],
-    "./container/categoryPage": [
+    "./component/pages/Register": [
+      "vendors",
       6
     ],
-    "./container/commentPage": [
-      0,
+    "./container/createStory": [
+      5,
+      "vendors",
       7
     ],
     "./component/nav": [
-      0,
-      2,
+      4,
+      "vendors",
       8
     ],
-    "./component/pages/Register": [
+    "./container/blogPage": [
       0,
+      "vendors",
       9
     ],
-    "./component/page/not-found": [
+    "./container/commentPage": [
+      "vendors",
       10
     ],
-    "./component/pages/AdminPage": [
+    "./component/pages/DashboardPage": [
+      0,
       11
     ],
-    "./component/pages/ConfirmationPage": [
-      0,
-      1,
+    "./container/homePage": [
+      "vendors",
       12
     ],
-    "./container/homePage": [
-      0,
+    "./component/page/not-found": [
       13
     ],
-    "main": [
+    "./component/pages/AdminPage": [
       14
     ],
-    "../../component/slateEditor": [
-      0,
+    "./component/pages/ConfirmationPage": [
+      3,
+      "vendors",
       15
     ],
-    "./containers/allCategoryContainer": [
+    "./container/categoryPage": [
+      0,
       16
     ],
-    "./containers/slidingCategoryContainer": [
+    "../../component/slateEditor": [
+      "vendors",
       17
     ],
-    "./containers/slidingTypeContainer": [
+    "./components/leadGeneration": [
+      "vendors",
       18
     ],
-    "./components/leadGeneration": [
+    "./containers/allCategoryContainer": [
       0,
+      1,
       19
+    ],
+    "./containers/slidingCategoryContainer": [
+      1,
+      2,
+      20
+    ],
+    "./containers/slidingTypeContainer": [
+      1,
+      2,
+      21
+    ],
+    "main": [
+      "main"
+    ],
+    "vendors": [
+      0,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      15,
+      17,
+      18,
+      "vendors"
     ]
   },
   "assets": {
     "0": {
       "js": [
         {
-          "file": "vendors.chunk.js",
-          "hash": "9b5c82594583ede57a6a",
-          "publicPath": "/static/vendors.chunk.js"
+          "file": "0.chunk.js",
+          "hash": "4239732a2c4285a75d9e",
+          "publicPath": "http://localhost:7000/dist/0.chunk.js"
+        }
+      ],
+      "js.map": [
+        {
+          "file": "0.chunk.js.map",
+          "hash": "4239732a2c4285a75d9e",
+          "publicPath": "http://localhost:7000/dist/0.chunk.js.map"
         }
       ]
     },
@@ -104,8 +151,15 @@
       "js": [
         {
           "file": "1.chunk.js",
-          "hash": "ed20133886e4ad123aeb",
-          "publicPath": "/static/1.chunk.js"
+          "hash": "144b9417f35e2a7df066",
+          "publicPath": "http://localhost:7000/dist/1.chunk.js"
+        }
+      ],
+      "js.map": [
+        {
+          "file": "1.chunk.js.map",
+          "hash": "144b9417f35e2a7df066",
+          "publicPath": "http://localhost:7000/dist/1.chunk.js.map"
         }
       ]
     },
@@ -113,8 +167,15 @@
       "js": [
         {
           "file": "2.chunk.js",
-          "hash": "53fa498fd1126ea0e78d",
-          "publicPath": "/static/2.chunk.js"
+          "hash": "ff0c02ae3d01f76430e0",
+          "publicPath": "http://localhost:7000/dist/2.chunk.js"
+        }
+      ],
+      "js.map": [
+        {
+          "file": "2.chunk.js.map",
+          "hash": "ff0c02ae3d01f76430e0",
+          "publicPath": "http://localhost:7000/dist/2.chunk.js.map"
         }
       ]
     },
@@ -122,8 +183,15 @@
       "js": [
         {
           "file": "3.chunk.js",
-          "hash": "f8a22e121f3749f0c359",
-          "publicPath": "/static/3.chunk.js"
+          "hash": "f6c88902f6d40dee2c6a",
+          "publicPath": "http://localhost:7000/dist/3.chunk.js"
+        }
+      ],
+      "js.map": [
+        {
+          "file": "3.chunk.js.map",
+          "hash": "f6c88902f6d40dee2c6a",
+          "publicPath": "http://localhost:7000/dist/3.chunk.js.map"
         }
       ]
     },
@@ -131,8 +199,15 @@
       "js": [
         {
           "file": "4.chunk.js",
-          "hash": "23fd6d5f9b1bac002bb7",
-          "publicPath": "/static/4.chunk.js"
+          "hash": "f3aa4584d863ec683439",
+          "publicPath": "http://localhost:7000/dist/4.chunk.js"
+        }
+      ],
+      "js.map": [
+        {
+          "file": "4.chunk.js.map",
+          "hash": "f3aa4584d863ec683439",
+          "publicPath": "http://localhost:7000/dist/4.chunk.js.map"
         }
       ]
     },
@@ -140,8 +215,15 @@
       "js": [
         {
           "file": "5.chunk.js",
-          "hash": "144a80197a8c3c9e25cf",
-          "publicPath": "/static/5.chunk.js"
+          "hash": "2f20c3471d9208e9e032",
+          "publicPath": "http://localhost:7000/dist/5.chunk.js"
+        }
+      ],
+      "js.map": [
+        {
+          "file": "5.chunk.js.map",
+          "hash": "2f20c3471d9208e9e032",
+          "publicPath": "http://localhost:7000/dist/5.chunk.js.map"
         }
       ]
     },
@@ -149,8 +231,15 @@
       "js": [
         {
           "file": "6.chunk.js",
-          "hash": "6e23322e08b5597fd68f",
-          "publicPath": "/static/6.chunk.js"
+          "hash": "a7eda9b96cf8459da81b",
+          "publicPath": "http://localhost:7000/dist/6.chunk.js"
+        }
+      ],
+      "js.map": [
+        {
+          "file": "6.chunk.js.map",
+          "hash": "a7eda9b96cf8459da81b",
+          "publicPath": "http://localhost:7000/dist/6.chunk.js.map"
         }
       ]
     },
@@ -158,8 +247,15 @@
       "js": [
         {
           "file": "7.chunk.js",
-          "hash": "9abe522cd55db657a122",
-          "publicPath": "/static/7.chunk.js"
+          "hash": "0f3cda5687a3032bab94",
+          "publicPath": "http://localhost:7000/dist/7.chunk.js"
+        }
+      ],
+      "js.map": [
+        {
+          "file": "7.chunk.js.map",
+          "hash": "0f3cda5687a3032bab94",
+          "publicPath": "http://localhost:7000/dist/7.chunk.js.map"
         }
       ]
     },
@@ -167,8 +263,15 @@
       "js": [
         {
           "file": "8.chunk.js",
-          "hash": "8c1bb8ee2b600fac7705",
-          "publicPath": "/static/8.chunk.js"
+          "hash": "d886112fba8923b88c03",
+          "publicPath": "http://localhost:7000/dist/8.chunk.js"
+        }
+      ],
+      "js.map": [
+        {
+          "file": "8.chunk.js.map",
+          "hash": "d886112fba8923b88c03",
+          "publicPath": "http://localhost:7000/dist/8.chunk.js.map"
         }
       ]
     },
@@ -176,8 +279,15 @@
       "js": [
         {
           "file": "9.chunk.js",
-          "hash": "084a6c03d46794f19062",
-          "publicPath": "/static/9.chunk.js"
+          "hash": "60d5c0a50dcb2c0fc286",
+          "publicPath": "http://localhost:7000/dist/9.chunk.js"
+        }
+      ],
+      "js.map": [
+        {
+          "file": "9.chunk.js.map",
+          "hash": "60d5c0a50dcb2c0fc286",
+          "publicPath": "http://localhost:7000/dist/9.chunk.js.map"
         }
       ]
     },
@@ -185,8 +295,15 @@
       "js": [
         {
           "file": "10.chunk.js",
-          "hash": "f7c0c1b8e3f970642fdb",
-          "publicPath": "/static/10.chunk.js"
+          "hash": "00997452229e12045698",
+          "publicPath": "http://localhost:7000/dist/10.chunk.js"
+        }
+      ],
+      "js.map": [
+        {
+          "file": "10.chunk.js.map",
+          "hash": "00997452229e12045698",
+          "publicPath": "http://localhost:7000/dist/10.chunk.js.map"
         }
       ]
     },
@@ -194,8 +311,15 @@
       "js": [
         {
           "file": "11.chunk.js",
-          "hash": "59def8d7bc6aaf826e77",
-          "publicPath": "/static/11.chunk.js"
+          "hash": "698ed0a7d1c6de9a0eb3",
+          "publicPath": "http://localhost:7000/dist/11.chunk.js"
+        }
+      ],
+      "js.map": [
+        {
+          "file": "11.chunk.js.map",
+          "hash": "698ed0a7d1c6de9a0eb3",
+          "publicPath": "http://localhost:7000/dist/11.chunk.js.map"
         }
       ]
     },
@@ -203,8 +327,15 @@
       "js": [
         {
           "file": "12.chunk.js",
-          "hash": "82f20b5a6fe1bd17b973",
-          "publicPath": "/static/12.chunk.js"
+          "hash": "4cce81e647460f262a67",
+          "publicPath": "http://localhost:7000/dist/12.chunk.js"
+        }
+      ],
+      "js.map": [
+        {
+          "file": "12.chunk.js.map",
+          "hash": "4cce81e647460f262a67",
+          "publicPath": "http://localhost:7000/dist/12.chunk.js.map"
         }
       ]
     },
@@ -212,17 +343,31 @@
       "js": [
         {
           "file": "13.chunk.js",
-          "hash": "e0c40fb2ceb8138feb5e",
-          "publicPath": "/static/13.chunk.js"
+          "hash": "d82c7d6bead616fe51fd",
+          "publicPath": "http://localhost:7000/dist/13.chunk.js"
+        }
+      ],
+      "js.map": [
+        {
+          "file": "13.chunk.js.map",
+          "hash": "d82c7d6bead616fe51fd",
+          "publicPath": "http://localhost:7000/dist/13.chunk.js.map"
         }
       ]
     },
     "14": {
       "js": [
         {
-          "file": "main.js",
-          "hash": "34255d045c10d0852785",
-          "publicPath": "/static/main.js"
+          "file": "14.chunk.js",
+          "hash": "00d281bb426ab2fafc0e",
+          "publicPath": "http://localhost:7000/dist/14.chunk.js"
+        }
+      ],
+      "js.map": [
+        {
+          "file": "14.chunk.js.map",
+          "hash": "00d281bb426ab2fafc0e",
+          "publicPath": "http://localhost:7000/dist/14.chunk.js.map"
         }
       ]
     },
@@ -230,8 +375,15 @@
       "js": [
         {
           "file": "15.chunk.js",
-          "hash": "784295d97ede33b541a8",
-          "publicPath": "/static/15.chunk.js"
+          "hash": "2112a2658472e9964fc8",
+          "publicPath": "http://localhost:7000/dist/15.chunk.js"
+        }
+      ],
+      "js.map": [
+        {
+          "file": "15.chunk.js.map",
+          "hash": "2112a2658472e9964fc8",
+          "publicPath": "http://localhost:7000/dist/15.chunk.js.map"
         }
       ]
     },
@@ -239,8 +391,15 @@
       "js": [
         {
           "file": "16.chunk.js",
-          "hash": "02d689bbda8b37e2f960",
-          "publicPath": "/static/16.chunk.js"
+          "hash": "ee3b337cfd1766eb11ab",
+          "publicPath": "http://localhost:7000/dist/16.chunk.js"
+        }
+      ],
+      "js.map": [
+        {
+          "file": "16.chunk.js.map",
+          "hash": "ee3b337cfd1766eb11ab",
+          "publicPath": "http://localhost:7000/dist/16.chunk.js.map"
         }
       ]
     },
@@ -248,8 +407,15 @@
       "js": [
         {
           "file": "17.chunk.js",
-          "hash": "1a45df8fecffd56f98af",
-          "publicPath": "/static/17.chunk.js"
+          "hash": "120695f0520ad6721559",
+          "publicPath": "http://localhost:7000/dist/17.chunk.js"
+        }
+      ],
+      "js.map": [
+        {
+          "file": "17.chunk.js.map",
+          "hash": "120695f0520ad6721559",
+          "publicPath": "http://localhost:7000/dist/17.chunk.js.map"
         }
       ]
     },
@@ -257,8 +423,15 @@
       "js": [
         {
           "file": "18.chunk.js",
-          "hash": "f23a7c0d793bf6a637a0",
-          "publicPath": "/static/18.chunk.js"
+          "hash": "1b9546f717603504854b",
+          "publicPath": "http://localhost:7000/dist/18.chunk.js"
+        }
+      ],
+      "js.map": [
+        {
+          "file": "18.chunk.js.map",
+          "hash": "1b9546f717603504854b",
+          "publicPath": "http://localhost:7000/dist/18.chunk.js.map"
         }
       ]
     },
@@ -266,8 +439,89 @@
       "js": [
         {
           "file": "19.chunk.js",
-          "hash": "c89dc32896fb2d84c11c",
-          "publicPath": "/static/19.chunk.js"
+          "hash": "cdad846303c455365eae",
+          "publicPath": "http://localhost:7000/dist/19.chunk.js"
+        }
+      ],
+      "js.map": [
+        {
+          "file": "19.chunk.js.map",
+          "hash": "cdad846303c455365eae",
+          "publicPath": "http://localhost:7000/dist/19.chunk.js.map"
+        }
+      ]
+    },
+    "20": {
+      "js": [
+        {
+          "file": "20.chunk.js",
+          "hash": "4d4172acdab9bc9e4139",
+          "publicPath": "http://localhost:7000/dist/20.chunk.js"
+        }
+      ],
+      "js.map": [
+        {
+          "file": "20.chunk.js.map",
+          "hash": "4d4172acdab9bc9e4139",
+          "publicPath": "http://localhost:7000/dist/20.chunk.js.map"
+        }
+      ]
+    },
+    "21": {
+      "js": [
+        {
+          "file": "21.chunk.js",
+          "hash": "169e69e3875e564d4c66",
+          "publicPath": "http://localhost:7000/dist/21.chunk.js"
+        }
+      ],
+      "js.map": [
+        {
+          "file": "21.chunk.js.map",
+          "hash": "169e69e3875e564d4c66",
+          "publicPath": "http://localhost:7000/dist/21.chunk.js.map"
+        }
+      ]
+    },
+    "main": {
+      "js": [
+        {
+          "file": "main.js",
+          "hash": "403af5805e6b2f5f2c07",
+          "publicPath": "http://localhost:7000/dist/main.js"
+        },
+        {
+          "file": "main.56a8d1153a032f2cfe13.hot-update.js",
+          "hash": "403af5805e6b2f5f2c07",
+          "publicPath": "http://localhost:7000/dist/main.56a8d1153a032f2cfe13.hot-update.js"
+        }
+      ],
+      "js.map": [
+        {
+          "file": "main.js.map",
+          "hash": "403af5805e6b2f5f2c07",
+          "publicPath": "http://localhost:7000/dist/main.js.map"
+        },
+        {
+          "file": "main.56a8d1153a032f2cfe13.hot-update.js.map",
+          "hash": "403af5805e6b2f5f2c07",
+          "publicPath": "http://localhost:7000/dist/main.56a8d1153a032f2cfe13.hot-update.js.map"
+        }
+      ]
+    },
+    "vendors": {
+      "js": [
+        {
+          "file": "vendors.chunk.js",
+          "hash": "8ba72412d7ff6e039f6c",
+          "publicPath": "http://localhost:7000/dist/vendors.chunk.js"
+        }
+      ],
+      "js.map": [
+        {
+          "file": "vendors.chunk.js.map",
+          "hash": "8ba72412d7ff6e039f6c",
+          "publicPath": "http://localhost:7000/dist/vendors.chunk.js.map"
         }
       ]
     }
