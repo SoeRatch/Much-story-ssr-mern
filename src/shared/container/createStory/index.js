@@ -247,7 +247,13 @@ class CreateStory extends React.Component{
       this.setState({errors});
 
       if(Object.keys(errors).length === 0){
-        this.props.createblogs(data).then(()=>this.props.history.push('/dashboard'));
+        if(!this.props.isAuthenticated){
+          errors.description="You are not authorized to publish. Please login or register today . since this product is in development phase use email - admin@muchstory.com and password - admin123 to login";
+          this.setState({errors});
+        }
+        else{
+          this.props.createblogs(data).then(()=>this.props.history.push('/dashboard'));
+        }
       }
  
     }
@@ -375,7 +381,8 @@ CreateStory.propTypes ={
 
 function mapStateToProps(state){
   return {
-    allcategories:state.theme && state.theme.allcategories
+    allcategories:state.theme && state.theme.allcategories,
+    isAuthenticated:state.user && !!state.user.token
   }
 }
 

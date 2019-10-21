@@ -9,7 +9,6 @@ import { APP_NAME } from './config'
 import UserRouteHOC from './component/hocRoutes/UserRouteHOC'
 import AdminRouteHOC from './component/hocRoutes/AdminRouteHOC'
 
-
 import {
   HOME_PAGE_ROUTE,
   DASHBOARD_PAGE_ROUTE,
@@ -117,7 +116,7 @@ const App = () =>
     <Switch>
       <Route exact path={HOME_PAGE_ROUTE} render={() => <HomePage />} />
       <UserRouteHOC exact path={DASHBOARD_PAGE_ROUTE} component={DashboardPage} />
-      <UserRouteHOC exact path={CREATE_STORY_ROUTE} component={CreateStory} />
+      <Route exact path={CREATE_STORY_ROUTE} component={CreateStory} />
       <Route exact path="/register" component={Register} />
       <Route exact path="/confirmation/:token" component={ConfirmationPage} />
       <Route exact path="/category/:categoryname" render={() =><CategoryPage />}/>
