@@ -11,6 +11,7 @@ class LoginForm extends React.Component{
 			password:''
 		},
 		errors:{},
+		message:"For demo purpose, use email- admin@muchstory.com and password- admin123 to signin",
 		containertype:this.props.containertype
 	}
 
@@ -49,7 +50,7 @@ class LoginForm extends React.Component{
 
 	render(){
 	
-			const {data,errors,containertype} = this.state;
+			const {data,errors,containertype,message} = this.state;
 			const {e_id,p_id}={e_id:`${containertype}emaillogin`,p_id:`${containertype}passwordlogin`};
 
 		return(
@@ -102,6 +103,7 @@ class LoginForm extends React.Component{
 								/>
 								{errors.email && <InlineError text={errors.email} />}
 								{errors.password && <InlineError text={errors.password} />}
+								{message && <InlineError text={message}/>}
 								<FormButtonInput
 									type="submit"
 									name=""
