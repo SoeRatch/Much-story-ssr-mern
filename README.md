@@ -65,22 +65,8 @@ Much Story is a **full-stack web application** built using the **MERN stack** (*
    ```
 6. **Run the production server**  
    ```bash
-  yarn start
-   ```
-
-## Folder Structure
-```bash
-Much-story-ssr-mern/
-│-- src/                # Main application code  
-│   ├── components/     # Reusable React components  
-│   ├── pages/          # React pages  
-│   ├── server/         # Express.js server and SSR logic  
-│-- public/             # Static assets  
-│-- dist/               # Production build  
-│-- package.json        # Project dependencies  
-│-- .env.example        # Example environment variables
-
-```
+     yarn start
+  ```
 
 ## 📝 How the Rich Text Editor Works (Slate.js)  
 
