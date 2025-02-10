@@ -1,5 +1,3 @@
-Server-side rendering , code splitting, React, webpack, babel, node, express
-
 # Much Story – SSR MERN
 
 🚀 **A Server-Side Rendered (SSR) MERN application for dynamic story creation and management**
@@ -42,7 +40,7 @@ Much Story is a **full-stack web application** built using the **MERN stack** (*
    MONGO_URI=your_mongodb_connection_string
    JWT_SECRET=your_secret_key
    PORT=5000
-  ```
+   ```
 4. **Start the development server**  
    ```bash
    yarn dev
